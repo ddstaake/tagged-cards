@@ -1,18 +1,15 @@
 {
-  "name": "react",
+  "name": "fireats",
   "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
+  "description": "Starting point for the Cloud Firestore codelab",
+  "main": ".",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write scripts/* styles/*"
   },
+  "author": "",
   "devDependencies": {
-    "react-scripts": "latest"
+    "eslint": "^4.17.0",
+    "prettier": "^1.5.3"
   }
 }
